@@ -789,6 +789,11 @@ section .container {
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
 }
+.portfolio .portfolio-wrap img {
+  height: 250px;  /* Set a consistent height */
+  width: 100%;    /* Set the width to fill its container */
+  object-fit: cover;  /* Ensures the image covers the space without stretching */
+}
 
 .portfolio .portfolio-wrap::before {
   content: "";
