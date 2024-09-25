@@ -387,6 +387,12 @@ section .container {
 
 .about-me .content ul li {
   padding-bottom: 10px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center; /* This will align the text vertically in the center */
+}
+.about-me .content ul li strong {
+  margin-right: 10px; /* Adds space between the colon and the following text */
 }
 
 .about-me .content ul i {
@@ -398,6 +404,9 @@ section .container {
 .about-me .content p:last-child {
   margin-bottom: 0;
 }
+/*--------------------------------------------------------------
+# Eduction
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Counts
@@ -658,7 +667,8 @@ section .container {
   background: #09203a;
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
-  margin: 10px
+  margin: 10px;
+  height: 350px;
 }
 
 .services .icon-box .icon {
@@ -673,6 +683,9 @@ section .container {
   justify-content: center;
   margin-bottom: 20px;
   transform-style: preserve-3d;
+}
+.icon-box img[src="assets/img/education/TMU.png"] {
+  margin-bottom: 75px; /* Add space below the TMU image */
 }
 
 .services .icon-box .icon i {
