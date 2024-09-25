@@ -379,6 +379,12 @@ section .container {
   font-size: 26px;
   color: #1c7d32;
 }
+.about-me img {
+  height: 350px; /* Set the height */
+  width: auto;   /* Keep the width proportional */
+  object-fit: cover; /* Ensures the image doesn't get distorted */
+}
+
 
 .about-me .content ul {
   list-style: none;
